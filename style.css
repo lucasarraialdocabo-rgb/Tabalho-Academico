@@ -1,0 +1,13 @@
+/* Reset básico */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; background-color: #f9f9f9; color: #333; padding-top: 60px; }
+header { position: fixed; top: 0; width: 100%; background: #222; padding: 15px 0; z-index: 1000; }
+header nav ul { list-style: none; display: flex; justify-content: center; gap: 20px; }
+header nav ul li a { color: #fff; text-decoration: none; font-weight: bold; }
+header nav ul li a:hover { color: #00aaff; }
+main { max-width: 800px; margin: 20px auto; padding: 20px; background: #fff; border-radius: 10px; }
+form { display: flex; flex-direction: column; gap: 10px; }
+input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 8px; font-size: 14px; }
+button { padding: 10px; border: none; background: #00aaff; color: #fff; font-size: 16px; border-radius: 8px; cursor: pointer; }
+button:hover { background: #0077aa; }
+footer { text-align: center; padding: 15px; margin-top: 30px; background: #222; color: #fff; }
